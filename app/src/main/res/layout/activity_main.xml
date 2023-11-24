@@ -25,13 +25,13 @@
            <Button
                android:layout_width="150dp"
                android:layout_height="wrap_content"
-               android:id="@+id/buttonjUGAR"
-               android:text="Jugar" />
+               android:id="@+id/ButtonPlay"
+               android:text="@string/jugar" />
            <Button
                android:layout_width="150dp"
                android:layout_height="wrap_content"
                android:id="@+id/BUTTONSALIR"
-               android:text="Salir" />
+               android:text="@string/salir" />
 
        </LinearLayout>
     <LinearLayout
@@ -42,7 +42,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Puntuacion"
+            android:text="@string/Tiempo"
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="30sp"
@@ -51,9 +51,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAlignment="center"
-            android:text="00"
+            android:text="@string/_00"
             android:textColor="@color/black"
             android:textSize="30sp"
+            android:id="@+id/TextViewTiempo"
             android:textStyle="bold" />
     </LinearLayout>
     </LinearLayout>
@@ -73,18 +74,22 @@
         <ImageView
             android:layout_width="135dp"
             android:layout_height="97dp"
+            android:id="@+id/imageView10"
             android:layout_gravity="center_vertical"
-            android:src="@drawable/fondo" />
+            android:src="@drawable/fondo"
+            android:contentDescription="@string/todo" />
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="97dp"
             android:src="@drawable/fondo"
+            android:id="@+id/imageView11"
             android:layout_gravity="center_vertical" />
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="97dp"
             android:src="@drawable/fondo"
+            android:id="@+id/imageView12"
             android:layout_gravity="center_vertical" />
 
 
@@ -106,16 +111,19 @@
         <ImageView
             android:layout_width="135dp"
             android:layout_height="97dp"
+            android:id="@+id/imageView7"
             android:layout_gravity="center_vertical"
             android:src="@drawable/fondo" />
         <ImageView
             android:layout_width="135dp"
             android:layout_height="97dp"
+            android:id="@+id/imageView8"
             android:layout_gravity="center_vertical"
             android:src="@drawable/fondo" />
         <ImageView
             android:layout_width="135dp"
             android:layout_height="97dp"
+            android:id="@+id/imageView9"
             android:layout_gravity="center_vertical"
             android:src="@drawable/fondo" />
     </LinearLayout>
@@ -136,16 +144,19 @@
         <ImageView
             android:layout_width="135dp"
             android:layout_height="97dp"
+            android:id="@+id/imageView4"
             android:layout_gravity="center_vertical"
             android:src="@drawable/fondo" />
         <ImageView
             android:layout_width="135dp"
             android:layout_height="97dp"
+            android:id="@+id/imageView5"
             android:layout_gravity="center_vertical"
             android:src="@drawable/fondo" />
         <ImageView
             android:layout_width="135dp"
             android:layout_height="97dp"
+            android:id="@+id/imageView6"
             android:layout_gravity="center_vertical"
             android:src="@drawable/fondo" />
     </LinearLayout>
@@ -165,17 +176,20 @@
         <ImageView
             android:layout_width="135dp"
             android:layout_height="97dp"
+            android:id="@+id/imageView1"
             android:layout_gravity="center_vertical"
             android:src="@drawable/fondo" />
         <ImageView
             android:layout_width="135dp"
             android:layout_height="97dp"
             android:layout_gravity="center_vertical"
+            android:id="@+id/imageView2"
             android:src="@drawable/fondo" />
         <ImageView
             android:layout_width="135dp"
             android:layout_height="97dp"
             android:layout_gravity="center_vertical"
+            android:id="@+id/imageView3"
             android:src="@drawable/fondo" />
     </LinearLayout>
 
